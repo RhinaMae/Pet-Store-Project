@@ -1,0 +1,98 @@
+/* App.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  .app-title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  form input[type='file'] {
+    padding: 0;
+  }
+  
+  form button[type='submit'] {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  table th,
+  table td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  table img {
+    max-width: 20px;
+    height: auto;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  button:active {
+    background-color: #ccc;
+  }
+  
